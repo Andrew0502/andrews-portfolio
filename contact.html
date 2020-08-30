@@ -10,7 +10,7 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="">
     </head>
-    <body>
+    <body class="text-center">
         
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Andrew Marcus</a>
@@ -31,6 +31,37 @@
               </ul>
             </div>
           </nav>
+
+        <main class ="container">
+              
+            <div class ="row">
+                <div class="col-sm-7">
+                    <div class = "card">
+                        <div class = "card-body">
+
+                        
+                            <div class="col-md-12 mb-3">
+                                <label for="firstName"><h1 class="h3 mb-3 font-weight-normal">Contact</h1></label>
+                                <input type="text" class="form-control" id="Name" placeholder="Name..." value="" required="">
+                                <div class="invalid-feedback">
+                                  Valid name is required.
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 class="mb-3">
+                                <label for="email"><h1 class="h3 mb-3 font-weight-normal">Email</h1></label>
+                                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                                <div class="invalid-feedback">
+                                  Please enter a valid email address for shipping updates.
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </main>
 
         <script src="" async defer></script>
     </body>
