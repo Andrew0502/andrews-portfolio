@@ -1,5 +1,5 @@
 .stick-footer{
-    min-height: calc(100vh - 62px - 50px);
+    min-height: calc(100vh - 56px - 56px);
 }
 
 body {
@@ -10,4 +10,14 @@ main {
     padding-top: 5vw;
     overflow: auto;
     padding-bottom: 100px;
+}
+
+.submit-button{
+    width: 50%;
+}
+
+#underline{
+    width: 75%; 
+    align-content: center;
+    /* margin-left:0 */
 }
