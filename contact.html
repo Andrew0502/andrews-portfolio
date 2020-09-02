@@ -1,17 +1,20 @@
 <!DOCTYPE html>
- <html class="no-js">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Contact Me</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        
+
+    
+    <body class="text-center">
+
+      <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Andrew Marcus</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,18 +23,74 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio </a>
+                  <a class="nav-link" href="portfolio.html">Portfolio </a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span> </a>
+                  <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span> </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Index</a>
+                  <a class="nav-link" href="index.html">About</a>
                 </li>
               </ul>
             </div>
           </nav>
+    </header>
 
-        <script src="" async defer></script>
+    
+        <main class ="container stick-footer">
+            
+                <div class ="row">
+                    <div class="col-sm-7">
+                        <div class = "card">
+                            <div class = "card-body">
+
+                                <div class="col-md-12 mb-3">
+                                    <label for="firstName"><h1 class="h3 mb-3 font-weight-normal display-5">Contact Me!</h1></label>
+                                </div>
+                                      <hr id = "underline">
+                                <section class="col-md-12 mb-3">
+                                    <label for="firstName"><h1 class="h3 mb-3 font-weight-normal ">Name</h1></label>
+                                    <input type="text" class="form-control" id="Name" placeholder="Name..." value="" required="">
+                                    <div class="invalid-feedback">
+                                    Valid name is required.
+                                    </div>
+                                </section>
+
+                                <section class="col-md-12 mb-3">
+                                    <label for="email"><h1 class="h3 mb-3 font-weight-normal">Email</h1></label>
+                                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                                    <div class="invalid-feedback">
+                                    Please enter a valid email address.
+                                    </div>
+                                </section>
+
+                                <section class="col-md-12 mb-3">
+                                    <label for="Message">Message<span class="text-muted">(Optional)</span></label>
+                                    <textarea type="text" class="form-control" id="message" 
+                                    placeholder="message"></textarea>
+                                </section>
+
+                                <section class="col-md-12 offset-md-3">
+
+                                    <button class="btn btn-primary btn-lg btn-block submit-button" type="submit">Submit</button>
+
+                                </section>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+              </main>
+
+        <footer class="footer mt-auto py-3 footer-expand-lg footer-dark bg-dark">
+          <div class="container">
+            <span class="text-muted">Made By Andrew Marcus. 2020.</span>
+          </div>
+        </footer>
+
+
+
+        
     </body>
 </html>
